@@ -1,0 +1,167 @@
+html {
+    font-family: "Cabin", sans-serif;
+    background-image: url("../images/bg.png");
+    background-size:auto;
+    background-attachment: ;
+    background-repeat:repeat-y
+    }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+     text-align:center;
+    font-size: 60px;
+    color:white;
+    text-shadow:
+        2px 2px 2px darkgray,
+        5px 5px 25px white;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 55px;
+    color:white;
+    padding-left: 90px;
+    text-shadow:
+        2px 2px 2px darkgray,
+        5px 5px 25px white;
+    }
+
+h4  {
+    font-size: 45px;
+    color:white;
+    text-shadow:
+        5px 5px 25px white;
+    text-decoration: none;
+}
+
+h5  {
+    font-size: 40px;
+    color:white;
+    text-shadow:
+        5px 5px 25px white;
+    text-decoration: none;
+}
+
+p {
+    color:white;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 30px;
+    background: rgba(000,000,000,0.6);
+    }
+
+#title {
+    font-size: 35px;
+    color:white;
+    text-shadow:
+        5px 5px 25px white;
+    text-decoration: none;
+}
+
+.b1 {
+    font-size: 12px;
+    color: black;
+    background-color: #e6b800;
+    width: 100px;
+    height: 30px;
+    }
+
+.b1:hover {
+    color: #737373;
+    }
+
+#nav {
+    width:780px;
+    margin:auto;
+    list-style:none;
+    }
+
+#nav li {
+    float:left;
+    text-align:center;
+    border: 7px solid white;
+    }
+
+#nav a {
+    display:block;
+    background: #000;
+    width:160px; /* fixed width */
+    padding: 5px 10px 5px 10px;
+    text-decoration:none;
+    font-size: 25px;
+    white-space: nowrap;color: #fff;
+    }
+
+#nav a:hover {
+    background: gray;
+}
+
+ul  {
+    list-style: inside url("/images/star.png");
+    padding-left: 0px;
+}
+
+.youtube    {
+    border: 7px solid white;
+    height: 320px;
+    width: 420px;
+    margin: auto;
+}
+
+#members {
+    width:820px;
+    margin:0 auto;
+    list-style:none;
+    padding-bottom: 100px;
+    }
+
+#members li {
+    float:left;
+    text-align:center;
+    border: 7px solid white;
+    }
+
+#members a {
+    display:block;
+    background: #000;
+    width:150px;
+    padding: 10px 0px 10px 0px;
+    text-decoration:none;
+    font-size: 20px;
+    white-space: nowrap;color: #fff;
+    }
+
+#members a:hover {
+    background: gray;
+}
+
+table   {
+    color: white;
+    border-color: transparent;
+}
+
+table #member   {
+    color:white;
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 30px;
+    background: rgba(000,000,000,0.6);
+    width: 390px;
+    line-height: 1.5;
+    font-size: 30px;
+}
+
+table td {
+    color:white;
+    background: rgba(000,000,000,0.6);
+    width: auto;
+    line-height: 1.5;
+    font-size: 30px;
+}
